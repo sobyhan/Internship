@@ -41,9 +41,9 @@ class DetailView (generic.DetailView):
     model = Question
     template_name = 'polls/details.html'
 
-""" class ResultView (generic.DetailView):
+class ResultView (generic.DetailView):
     model = Question
-    template_name = 'polls/results.html' """
+    template_name = 'polls/results.html'
 
 
 def vote (request, question_id):
